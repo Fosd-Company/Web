@@ -69,7 +69,7 @@ const AboutPage = () => (
           </div>
           <div className="card-page mt-3">
             <h5 className="fg-primary">
-              Valores y caracteristicas de nuestro equipo
+              Valores y características de nuestro equipo
             </h5>
             <hr />
             <ol>
