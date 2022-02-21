@@ -70,7 +70,7 @@ const Footer = () => (
             </ul>
           </div>
           <div className="col-md-6 col-lg-4 py-3">
-            <h5 className="mb-3">Suscribete</h5>
+            <h5 className="mb-3">Suscríbete</h5>
             <p>Te enviaremos actualizaciones y novedades de la aplicación</p>
             <form method="POST">
               <div className="input-group">
