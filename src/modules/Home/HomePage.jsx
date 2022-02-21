@@ -20,7 +20,7 @@ const HomePage = () => (
             </div>
             <div className="col-lg-6 d-none d-lg-block wow zoomIn">
               <div className="img-place mobile-preview shadow floating-animate">
-                <img src="../assets/img/app_showcase.png" alt="" />
+                <img src="assets/img/app_showcase.png" alt="" />
               </div>
             </div>
           </div>

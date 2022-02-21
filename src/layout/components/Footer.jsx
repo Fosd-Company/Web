@@ -28,7 +28,7 @@ const Footer = () => (
             <h5 className="mb-3">Aplicaciones</h5>
             <ul className="menu-link">
               <li>
-                <a className="">AR Education</a>
+                <a>AR Education</a>
               </li>
               <li>
                 <a className="">AR Entertainment</a>
@@ -45,9 +45,7 @@ const Footer = () => (
             <h5 className="mb-3">Compañía</h5>
             <ul className="menu-link">
               <li>
-                <NavLink to="about">
-                  <a className="">Acerca de</a>
-                </NavLink>
+                <NavLink to="about">Acerca de</NavLink>
               </li>
               <li>
                 <a className="">Equipo</a>
@@ -58,9 +56,7 @@ const Footer = () => (
             <h5 className="mb-3">Contacto</h5>
             <ul className="menu-link">
               <li>
-                <NavLink to="contact-us">
-                  <a className="">Contáctanos</a>
-                </NavLink>
+                <NavLink to="contact-us">Contáctanos</NavLink>
               </li>
               <li>
                 <a className="">+505 5768 925</a>
@@ -74,22 +70,22 @@ const Footer = () => (
             </ul>
           </div>
           <div className="col-md-6 col-lg-4 py-3">
-            {/* <h5 className="mb-3">Subscribe</h5>
-            <p>Get some offers, news, or update features of application</p>
+            <h5 className="mb-3">Suscribete</h5>
+            <p>Te enviaremos actualizaciones y novedades de la aplicación</p>
             <form method="POST">
               <div className="input-group">
                 <input
                   type="text"
                   className="form-control"
-                  placeholder="Your email.."
+                  placeholder="Correo electrónico..."
                 />
                 <div className="input-group-append">
-                  <button type="submit" className="btn btn-primary">
+                  <button type="submit" className="btn btn-primary" disabled>
                     <span className="mai-send"></span>
                   </button>
                 </div>
               </div>
-            </form> */}
+            </form>
 
             <div className="mt-3">
               <a
@@ -123,7 +119,7 @@ const Footer = () => (
             <img src="assets/favicon-light.png" alt="" width="40" />
             {/* <!-- Please don't remove or modify the credits below --> */}
             <p className="d-inline-block ml-2">
-              Copyright &copy; <a className="fg-white fw-medium">Fosd</a>. Todos
+              {new Date().getFullYear()} Copyright &copy; <a className="fg-white fw-medium">Fosd</a>. Todos
               los derechos reservados.
             </p>
           </div>

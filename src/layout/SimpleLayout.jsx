@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Outlet } from "react-router-dom";
 import { Footer, Navbar } from "./components";
 
-const HomeLayout = () => (
+const SimpleLayout = () => (
   <Fragment>
     <Navbar />
     <Outlet />
@@ -10,4 +10,4 @@ const HomeLayout = () => (
   </Fragment>
 );
 
-export { HomeLayout };
+export { SimpleLayout };

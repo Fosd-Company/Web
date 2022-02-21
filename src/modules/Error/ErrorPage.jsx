@@ -13,7 +13,7 @@ const ErrorPage = () => (
               <h3 className="mb-3 fw-medium">Error 404</h3>
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb breadcrumb-dark justify-content-center bg-transparent">
-                  <li className="breadcrumb-item active" aria-current="page">
+                  <li className="breadcrumb-item active">
                     <NavLink to="/">Inicio</NavLink>
                   </li>
                 </ol>

@@ -34,7 +34,7 @@ const MasterLayout = () => {
                     <ol className="breadcrumb breadcrumb-dark justify-content-center bg-transparent">
                       <li className="breadcrumb-item">
                         <NavLink to="/">
-                          <a>Inicio</a>
+                          Inicio
                         </NavLink>
                       </li>
                       <li
