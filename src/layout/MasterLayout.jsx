@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState } from "react";
 import { Footer, Navbar } from "./components";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const breadcrumbs = {
   "/contact-us": { title: "Medios de Contacto", name: "Contáctanos" },
@@ -9,19 +10,19 @@ const breadcrumbs = {
   "": { title: "", name: "" },
 };
 
-const MasterLayout = ({ children, page }) => {
+const MasterLayout = ({ children }) => {
   const [breadcrump, setBreadcrump] = useState();
+  const router = useRouter();
 
   useEffect(() => {
-    console.log(page);
-    page && setBreadcrump(breadcrumbs[page]);
-  }, [page]);
+    router.pathname !== "/" && setBreadcrump(breadcrumbs[router.pathname]);
+  }, [router]);
 
   return (
     <Fragment>
       <Navbar />
       <main className="bg-light">
-        {page !== "/" && (
+        {router.pathname !== "/" && (
           <div
             className="page-hero-section bg-image hero-mini"
             style={{ backgroundImage: "url(../assets/img/hero_mini.svg)" }}

@@ -45,7 +45,7 @@ const Footer = () => (
             <h5 className="mb-3">Compañía</h5>
             <ul className="menu-link">
               <li>
-                <Link href="about">Acerca de</Link>
+                <Link href="/about">Acerca de</Link>
               </li>
               <li>
                 <a className="">Equipo</a>
@@ -56,7 +56,7 @@ const Footer = () => (
             <h5 className="mb-3">Contacto</h5>
             <ul className="menu-link">
               <li>
-                <Link href="contact-us">Contáctanos</Link>
+                <Link href="/contact-us">Contáctanos</Link>
               </li>
               <li>
                 <a className="">+505 5768 925</a>

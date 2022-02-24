@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import { MasterLayout } from "../layout";
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -8,8 +7,6 @@ class MyDocument extends Document {
   }
 
   render() {
-    const { page } = this.props.__NEXT_DATA__;
-  
     return (
       <Html>
         <Head>
@@ -22,9 +19,7 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
-          <MasterLayout page={page}>
-            <Main />
-          </MasterLayout>
+          <Main />
         </body>
         <NextScript />
       </Html>
