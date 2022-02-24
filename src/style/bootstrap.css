@@ -4418,6 +4418,8 @@ input[type="button"].btn-block {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
+  text-shadow: rgba(114, 102, 102, 0.659) 0px 5px 5px !important;
+  /* color: #000 !important; */
 }
 
 .nav-link:hover,
