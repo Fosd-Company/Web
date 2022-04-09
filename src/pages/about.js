@@ -25,10 +25,11 @@ const AboutPage = () => (
             </p>
             {/* Video */}
             <div className="text-center py-5">
-              <embed
+            {/* <iframe className="embed-video" width="1264" height="720" src="https://www.youtube.com/embed/Ru1N1Z4DgeM" title="YouTube video player" frameBorder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe> */}
+              {/* <embed
                 className="embed-video"
                 src="https://www.youtube.com/embed/Ru1N1Z4DgeM"
-              />
+              /> */}
             </div>
             <p>
               Posteriormente se forma Nic-ARTeam como un equipo oficialmente
@@ -163,4 +164,4 @@ const AboutPage = () => (
   </div>
 );
 
-export { AboutPage };
+export default AboutPage;

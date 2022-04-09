@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import Link from "next/link";
 
 const ErrorPage = () => (
   <div className="bg-light">
@@ -14,7 +14,9 @@ const ErrorPage = () => (
               <nav aria-label="breadcrumb">
                 <ol className="breadcrumb breadcrumb-dark justify-content-center bg-transparent">
                   <li className="breadcrumb-item active">
-                    <NavLink to="/">Inicio</NavLink>
+                    <Link href="/">
+                      <a>Inicio</a>
+                    </Link>
                   </li>
                 </ol>
               </nav>
@@ -31,4 +33,4 @@ const ErrorPage = () => (
   </div>
 );
 
-export { ErrorPage };
+export default ErrorPage;

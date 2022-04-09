@@ -113,4 +113,4 @@ const ContactPage = () => (
 
 );
 
-export { ContactPage };
+export default ContactPage;
