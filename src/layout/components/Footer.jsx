@@ -116,7 +116,7 @@ const Footer = () => (
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6 py-2">
-            <img src="assets/favicon-light.png" alt="" width="40" />
+            <img src="assets/vision-logo.png" alt="" width="40" />
             {/* <!-- Please don't remove or modify the credits below --> */}
             <p className="d-inline-block ml-2">
               {new Date().getFullYear()} Copyright &copy; <a className="fg-white fw-medium">Fosd</a>. Todos
@@ -126,6 +126,7 @@ const Footer = () => (
         </div>
       </div>
     </div>
+    {/* JQUERY ZZZZZZZZZZZZZZ */}
     {/* <script src="assets/js/jquery-3.5.1.min.js"></script> */}
     {/* <script src="assets/js/bootstrap.bundle.min.js"></script> */}
     {/* <script src="assets/vendor/owl-carousel/js/owl.carousel.min.js"></script> */}

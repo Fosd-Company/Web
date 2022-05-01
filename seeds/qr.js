@@ -10,7 +10,7 @@ module.exports =  [
     {
         name: 'Atom',
         type: 'Particles',
-        description: 'Descripcion de la molecula',
+        description: 'Un átomo es la unidad más pequeña de la materia que tiene las propiedades de un elemento químico. Los átomos son microscópicos, los tamaños típicos son alrededor de 100pm. Cada átomo se compone de un núcleo y uno o más electrones unidos al núcleo. El núcleo está compuesto por uno o más protones y típicamente por igual número de neutrones.',
         image: '/assets/img/catalogo/atom.png',
         qr: '/assets/img/qr/atom.png',
         category: 'Anatomia',

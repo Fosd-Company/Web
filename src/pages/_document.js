@@ -14,7 +14,7 @@ class MyDocument extends Document {
           <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
           <link
             rel="shortcut icon"
-            href="/assets/favicon-light.png"
+            href="/assets/vision-logo.png"
             type="image/x-icon"
           />
         </Head>

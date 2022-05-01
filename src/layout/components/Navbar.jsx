@@ -7,9 +7,11 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark navbar-floating">
       <div className="container">
-        <a className="navbar-brand" href="#">
-          <img src="assets/favicon-light.png" alt="" width="40" />
-        </a>
+        <Link href="/">
+          <a className="navbar-brand">
+            <img src="assets/vision-logo.png" alt="" width="48" />
+          </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -31,6 +33,11 @@ const Navbar = () => {
             <li className="nav-item">
               <Link href="/">
                 <a className="nav-link">Inicio</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/catalogo">
+                <a className="nav-link">Revista</a>
               </Link>
             </li>
             <li className="nav-item">

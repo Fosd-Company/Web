@@ -9,7 +9,7 @@ const HomePage = () => (
             <div className="row align-items-center h-100">
               <div className="col-lg-6 wow fadeInUp">
                 <div className="badge badge-soft mb-2">Dev by Fosd</div>
-                <h1 className="mb-4 fw-normal">AR Education</h1>
+                <h1 className="mb-4 fw-normal">Visions</h1>
                 <p className="mb-4">
                   Combinando la lectura con la tecnología, <br />
                   aprendiendo con ayuda de la curiosidad.
@@ -20,7 +20,7 @@ const HomePage = () => (
               </div>
               <div className="col-lg-6 d-none d-lg-block wow zoomIn">
                 <div className="img-place mobile-preview shadow floating-animate">
-                  <img src="assets/img/app_showcase.png" alt="" />
+                  <img src="assets/img/preview-mobile-app.png" alt="" />
                 </div>
               </div>
             </div>
