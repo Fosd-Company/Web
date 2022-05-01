@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import Link from "next/link";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -7,9 +7,11 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark navbar-floating">
       <div className="container">
-        <a className="navbar-brand" href="#">
-          <img src="assets/favicon-light.png" alt="" width="40" />
-        </a>
+        <Link href="/">
+          <a className="navbar-brand">
+            <img src="assets/vision-logo.png" alt="" width="48" />
+          </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -23,27 +25,37 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        <div className={`${isCollapsed && "collapse"} navbar-collapse`} id="navbarToggler">
+        <div
+          className={`${isCollapsed && "collapse"} navbar-collapse`}
+          id="navbarToggler"
+        >
           <ul className="navbar-nav ml-auto mt-3 mt-lg-0">
             <li className="nav-item">
-              <NavLink className="nav-link" to="/">
-                Inicio
-              </NavLink>
+              <Link href="/">
+                <a className="nav-link">Inicio</a>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/updates">
-                Actualizaciones
-              </NavLink>
+              <Link href="/catalogo">
+                <a className="nav-link">Revista</a>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/contact-us">
-                Contáctenos
-              </NavLink>
+              <Link href="/updates">
+                <a className="nav-link">Actualizaciones</a>
+              </Link>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/about">
-                Acerca de
-              </NavLink>
+              <Link href="/contact-us">
+                <a className="nav-link">Contáctenos</a>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link href="/about">
+                <a className="nav-link">
+                  Acerca de
+                </a>
+              </Link>
             </li>
           </ul>
         </div>

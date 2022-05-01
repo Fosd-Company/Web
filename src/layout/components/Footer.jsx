@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import { NavLink } from "react-router-dom";
+import Link from "next/link";
 
 const redirectToSocialNetwork = ({ target }) => {
   const { id } = target;
@@ -45,7 +45,7 @@ const Footer = () => (
             <h5 className="mb-3">Compañía</h5>
             <ul className="menu-link">
               <li>
-                <NavLink to="about">Acerca de</NavLink>
+                <Link href="/about">Acerca de</Link>
               </li>
               <li>
                 <a className="">Equipo</a>
@@ -56,7 +56,7 @@ const Footer = () => (
             <h5 className="mb-3">Contacto</h5>
             <ul className="menu-link">
               <li>
-                <NavLink to="contact-us">Contáctanos</NavLink>
+                <Link href="/contact-us">Contáctanos</Link>
               </li>
               <li>
                 <a className="">+505 5768 925</a>
@@ -116,7 +116,7 @@ const Footer = () => (
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-6 py-2">
-            <img src="assets/favicon-light.png" alt="" width="40" />
+            <img src="assets/vision-logo.png" alt="" width="40" />
             {/* <!-- Please don't remove or modify the credits below --> */}
             <p className="d-inline-block ml-2">
               {new Date().getFullYear()} Copyright &copy; <a className="fg-white fw-medium">Fosd</a>. Todos
@@ -126,11 +126,12 @@ const Footer = () => (
         </div>
       </div>
     </div>
-    <script src="assets/js/jquery-3.5.1.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/owl-carousel/js/owl.carousel.min.js"></script>
-    <script src="assets/vendor/wow/wow.min.js"></script>
-    <script src="assets/js/mobster.js"></script>
+    {/* JQUERY ZZZZZZZZZZZZZZ */}
+    {/* <script src="assets/js/jquery-3.5.1.min.js"></script> */}
+    {/* <script src="assets/js/bootstrap.bundle.min.js"></script> */}
+    {/* <script src="assets/vendor/owl-carousel/js/owl.carousel.min.js"></script> */}
+    {/* <script src="assets/vendor/wow/wow.min.js"></script> */}
+    {/* <script src="assets/js/mobster.js"></script> */}
   </Fragment>
 );
 

@@ -1,0 +1,16 @@
+.products {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.product {
+    background-color: #fff;
+    
+}
+
+.product img {
+ width: 250px;
+}
