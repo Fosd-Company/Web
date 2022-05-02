@@ -7,7 +7,7 @@ const breadcrumbs = {
   "/contact-us": { title: "Medios de Contacto", name: "Contáctanos" },
   "/updates": { title: "Novedades", name: "Actualizaciones" },
   "/about": { title: "¿Quiénes somos?", name: "Acerca de" },
-  "": { title: "", name: "" },
+  "/revista": { title: "Revista", name: "Revista" },
 };
 
 const MasterLayout = ({ children }) => {

@@ -1,8 +1,11 @@
-import { PrismaClient } from "@prisma/client";
+const { PrismaClient } = require('@prisma/client');
+const fs = require('fs');
 
-export default async (req, res) => {
-    const prisma = new PrismaClient();
-    const qrs = await prisma.magazine.findMany({
+const prisma = new PrismaClient();
+
+// add seed
+const getMagazine = async () => {
+    const magazines = await prisma.magazine.findMany({
         include: {
             magazineCategory: {
                 include: {
@@ -16,6 +19,7 @@ export default async (req, res) => {
             }
         }
     });
-    res.json(qrs);
-    
+
+    fs.writeFileSync('./magazine.json', JSON.stringify(magazines))
 }
+getMagazine()
