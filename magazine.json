@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "name": "DNA",
+    "type": "Moleculas",
+    "description": "Descripcion de la molecula",
+    "qr": "/assets/img/qr/dna.png",
+    "image": "/assets/img/catalogo/dna.png",
+    "magazineCategory": [
+      { "magazineId": 1, "categoryId": 1, "category": { "name": "anatomia" } },
+      { "magazineId": 1, "categoryId": 2, "category": { "name": "ciencia" } }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Atom",
+    "type": "Particles",
+    "description": "Un átomo es la unidad más pequeña de la materia que tiene las propiedades de un elemento químico. Los átomos son microscópicos, los tamaños típicos son alrededor de 100pm. Cada átomo se compone de un núcleo y uno o más electrones unidos al núcleo. El núcleo está compuesto por uno o más protones y típicamente por igual número de neutrones.",
+    "qr": "/assets/img/qr/atom.png",
+    "image": "/assets/img/catalogo/atom.png",
+    "magazineCategory": [
+      { "magazineId": 2, "categoryId": 1, "category": { "name": "anatomia" } },
+      { "magazineId": 2, "categoryId": 2, "category": { "name": "ciencia" } }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Digestion",
+    "type": "Body Parts",
+    "description": "Descripcion de la molecula",
+    "qr": "/assets/img/qr/digestion.png",
+    "image": "/assets/img/catalogo/digestion.png",
+    "magazineCategory": [
+      { "magazineId": 3, "categoryId": 1, "category": { "name": "anatomia" } },
+      { "magazineId": 3, "categoryId": 2, "category": { "name": "ciencia" } }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Omicron",
+    "type": "Virus",
+    "description": "Descripcion de la molecula",
+    "qr": "/assets/img/qr/omicron.png",
+    "image": "/assets/img/catalogo/omicron.png",
+    "magazineCategory": [
+      { "magazineId": 4, "categoryId": 3, "category": { "name": "biologia" } },
+      { "magazineId": 4, "categoryId": 6, "category": { "name": "virus" } }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Fungus",
+    "type": "Enviroment",
+    "description": "Descripcion de la molecula",
+    "qr": "/assets/img/qr/fungus.png",
+    "image": "/assets/img/catalogo/fungus.png",
+    "magazineCategory": [
+      { "magazineId": 5, "categoryId": 3, "category": { "name": "biologia" } }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Tree",
+    "type": "Environmnet",
+    "description": "Descripcion de la molecula",
+    "qr": "/assets/img/qr/tree.png",
+    "image": "/assets/img/catalogo/tree.png",
+    "magazineCategory": [
+      { "magazineId": 6, "categoryId": 3, "category": { "name": "biologia" } }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Axe",
+    "type": "Prehistoric Tool",
+    "description": "Descripcion de la molecula",
+    "qr": "/assets/img/qr/axe.png",
+    "image": "/assets/img/catalogo/axe.png",
+    "magazineCategory": [
+      { "magazineId": 7, "categoryId": 4, "category": { "name": "historia" } }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Bow",
+    "type": "Prehistoric Tool",
+    "description": "Descripcion de la molecula",
+    "qr": "/assets/img/qr/bow.png",
+    "image": "/assets/img/catalogo/bow.png",
+    "magazineCategory": [
+      { "magazineId": 8, "categoryId": 4, "category": { "name": "historia" } }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Caravel",
+    "type": "Historic",
+    "description": "Descripcion de la molecula",
+    "qr": "/assets/img/qr/caravel.png",
+    "image": "/assets/img/catalogo/caravel.png",
+    "magazineCategory": [
+      { "magazineId": 9, "categoryId": 4, "category": { "name": "historia" } }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Earth",
+    "type": "Geography",
+    "description": "Descripcion de la molecula",
+    "qr": "/assets/img/qr/earth.png",
+    "image": "/assets/img/catalogo/earth.png",
+    "magazineCategory": [
+      { "magazineId": 10, "categoryId": 5, "category": { "name": "geografia" } }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Capside",
+    "type": "Virus part",
+    "description": "Descripcion de la molecula",
+    "qr": "/assets/img/qr/capside.png",
+    "image": "/assets/img/catalogo/capside.png",
+    "magazineCategory": [
+      { "magazineId": 11, "categoryId": 3, "category": { "name": "biologia" } },
+      { "magazineId": 11, "categoryId": 6, "category": { "name": "virus" } }
+    ]
+  }
+]

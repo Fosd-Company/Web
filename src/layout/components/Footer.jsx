@@ -28,16 +28,13 @@ const Footer = () => (
             <h5 className="mb-3">Aplicaciones</h5>
             <ul className="menu-link">
               <li>
-                <a>AR Education</a>
+                <a>Visions Education</a>
               </li>
               <li>
-                <a className="">AR Entertainment</a>
+                <a className="">Visions Entertainment</a>
               </li>
               <li>
-                <a className="">AR Bussiness</a>
-              </li>
-              <li>
-                <a className="">MLabs</a>
+                <a className="">Visions Bussiness</a>
               </li>
             </ul>
           </div>

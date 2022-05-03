@@ -10,12 +10,28 @@ generator client {
     previewFeatures = ["referentialIntegrity"]
 }
 
-model magazineModels {
+model Magazine {
     id Int @id @default(autoincrement())
     name String
     type String
-    description String
-    category String
+    description String @db.Text
+    magazineCategory MagazineCategory[]
     qr String
     image String
+}
+
+model Category {
+    id Int @id @default(autoincrement())
+    name String
+    category MagazineCategory[]
+}
+
+model MagazineCategory {
+    magazine Magazine @relation(fields: [magazineId], references: [id], onDelete: Cascade)
+    magazineId Int
+    category Category @relation(fields: [categoryId], references: [id], onDelete: Cascade)
+    categoryId Int
+
+    @@id([magazineId, categoryId])
+    @@index([magazineId, categoryId])
 }
